@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Labb 1 - Grupp 33</title>
+  <!-- Länk till extern CSS-fil för sidans styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Huvudrubrik för sidan -->
+    <h1>Labb 1 - Grupp 33</h1>
+
+    <!-- Grupp för färg-input -->
+    <div class="container-group">
+      <label for="color">Color</label>
+      <!-- Textfält där användaren kan ange en färg -->
+      <input type="text" id="color" name="color" placeholder="Ange en färg">
+    </div>
+    
+    <!-- Grupp för innehåll-input -->
+    <div class="container-group">
+      <label for="content">Content</label>
+      <!-- Textfält där användaren kan ange innehåll -->
+      <input type="text" id="content" name="content" placeholder="Ange innehåll">
+    </div>
+
+    <!-- Grupp för kryssruta -->
+    <div class="container-group">
+      <label for="divStyle">Style on box</label>
+      <!-- Kryssruta för att aktivera en stil -->
+      <input type="checkbox" id="divStyle" name="divStyle">
+    </div>
+
+    <!-- Ta bort Knapp -->
+    <button id="actionButton" class="actionButton">Remove</button>
+
+    <!-- Div-element för att visa utdata -->
+    <div id="outputDiv" class="outputDiv">Feel free</div>
+  </div>
+
+  <!-- Länk till extern JavaScript-fil för sidans funktionalitet -->
+  <script src="script.js"></script>
+</body>
+</html>
