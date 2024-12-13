@@ -1,0 +1,92 @@
+body {
+    /* Grundläggande styling för hela sidan */
+    font-family: Arial, sans-serif;
+    background-color: #25bdae;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+.container {
+    /* Stilar för huvudbehållaren */
+    background-color: #ECF0F1;
+    color: #2C3E50;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    border: 3px solid #2b2328;
+  }
+  
+h1 {
+    /* Stilar för rubriker */
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #2C3E50;
+  }
+  
+.container-group {
+    /* Marginal för sektioner i containern */
+    margin-bottom: 14px;
+  }
+  
+label {
+    /* Stilar för etiketter */
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+input[type="text"] {
+    /* Text fält styling */
+    width: calc(100% - 10px);
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+  }
+  
+input[type="checkbox"] {
+    /* checkbox styling */
+    width: auto;
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+  }
+  
+.actionButton {
+    /* Stil för knappar */
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+.button:hover {
+    /* Stil vid hover för knappar */
+    background-color: #2980B9;
+  }
+  
+.outputDiv {
+    /* Stil för en div som visar utdata */
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    min-height: 50px;
+    text-align: center;
+  }
